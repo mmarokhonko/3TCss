@@ -1,7 +1,7 @@
 @import "vars";
 
 body {
-  color: $color1 !important;
+  color: $color1;
   background: $bg1 !important;
 }
 
@@ -43,12 +43,12 @@ h1, h2, h3, h4, h5, h6 {
   color: $color1 !important;
 }
 
-span {
-  color: $color2 !important;
-}
+//span {
+//  color: $color2 !important;
+//}
 
 p {
-  color: $color2!important;
+  color: $color2;
 }
 
 //a {
@@ -84,4 +84,7 @@ td {
 .jumbotron {
   background: $bg1 !important;
   color: $color1 !important;
+}
+.label-danger {
+  color: $color1;
 }
