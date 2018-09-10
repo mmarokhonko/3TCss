@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 //span {
-//  color: $color2 !important;
+//  color: $color1 !important;
 //}
 
 p {
@@ -78,7 +78,9 @@ td {
 
 .ra {
   background: $bg1 !important;
-  color: $color2 !important;
+  p,span {
+    color: $color1;
+  }
 }
 
 .jumbotron {
@@ -86,5 +88,23 @@ td {
   color: $color1 !important;
 }
 .label-danger {
-  color: $color1;
+  color: #fff !important;
+}
+.circle-text {
+  border: 2px solid #000000 !important;
+  color: #282c34 !important;
+  box-shadow: 0 0 10px 2px #7b7b81 !important;
+}
+.getting-row {
+  color: $color1 !important;
+  .btn {
+    color:$color1 !important;
+    background: transparent !important;
+    border: 1px solid $color2 !important;
+  }
+}
+.btn:hover, .btn:focus, .btn.focus {
+  color: #000 !important;
+  border: 1px solid $color3 !important;
+  background: $color3 !important;
 }

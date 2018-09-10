@@ -34,7 +34,10 @@ td {
 
 .ra {
   background: #fff !important;
-  color: #3c3c42 !important;
+}
+
+.ra p, .ra span {
+  color: #000;
 }
 
 .jumbotron {
@@ -43,5 +46,28 @@ td {
 }
 
 .label-danger {
-  color: #000;
+  color: #fff !important;
+}
+
+.circle-text {
+  border: 2px solid #000000 !important;
+  color: #282c34 !important;
+  -webkit-box-shadow: 0 0 10px 2px #7b7b81 !important;
+          box-shadow: 0 0 10px 2px #7b7b81 !important;
+}
+
+.getting-row {
+  color: #000 !important;
+}
+
+.getting-row .btn {
+  color: #000 !important;
+  background: transparent !important;
+  border: 1px solid #3c3c42 !important;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+  color: #000 !important;
+  border: 1px solid #e8e8e8 !important;
+  background: #e8e8e8 !important;
 }
