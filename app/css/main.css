@@ -1,42 +1,42 @@
 body {
-  color: #000;
-  background: #fff;
+  color: #000 !important;
+  background: #fff !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
+  color: #000 !important;
 }
 
 span {
-  color: #3c3c42;
+  color: #3c3c42 !important;
 }
 
 p {
-  color: #3c3c42;
+  color: #3c3c42 !important;
 }
 
 td {
-  color: #000;
+  color: #000 !important;
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background: #e8e8e8;
+  background: #e8e8e8 !important;
 }
 
 .label-info {
-  background: #3c3c42;
+  background: #fff !important;
 }
 
 .media-heading {
-  color: #000;
+  color: #000 !important;
 }
 
 .ln {
-  background: #e8e8e8;
-  color: #3c3c42;
+  background: #e8e8e8 !important;
+  color: #3c3c42 !important;
 }
 
 .ra {
-  background: #fff;
-  color: #3c3c42;
+  background: #fff !important;
+  color: #3c3c42 !important;
 }

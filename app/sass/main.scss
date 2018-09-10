@@ -1,8 +1,8 @@
 @import "vars";
 
 body {
-  color: $color1;
-  background: $bg1;
+  color: $color1 !important;
+  background: $bg1 !important;
 }
 
 //.navbar-default {
@@ -40,15 +40,15 @@ body {
 //}
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color1;
+  color: $color1 !important;
 }
 
 span {
-  color: $color2;
+  color: $color2 !important;
 }
 
 p {
-  color: $color2;
+  color: $color2!important;
 }
 
 //a {
@@ -56,27 +56,27 @@ p {
 //}
 
 td {
-  color: $color1;
+  color: $color1!important;
 }
 
 .table-striped > tbody > tr:nth-of-type(odd) {
-  background: $color3;
+  background: $color3 !important;
 }
 
 .label-info {
-  background: $color2;
+  background: $bg1 !important;
 }
 
 .media-heading {
-  color: $color1;
+  color: $color1 !important;
 }
 
 .ln {
-  background: $color3;
-  color: $color2;
+  background: $color3 !important;
+  color: $color2 !important;
 }
 
 .ra {
-  background: $bg1;
-  color: $color2;
+  background: $bg1 !important;
+  color: $color2 !important;
 }
