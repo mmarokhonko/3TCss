@@ -1,0 +1,80 @@
+body {
+  color: #424245;
+  background: #f2f2f2;
+}
+
+.navbar-default {
+  background: #424245;
+}
+
+.navbar-nav > .active {
+  border-bottom: #424245;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #f2f2f2;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #424245;
+  background-color: #424245;
+}
+
+.collapse .navbar-collapse .navbar-left {
+  background: #424245;
+}
+
+.dropdown-menu > li > a {
+  color: #424245;
+}
+
+.dropdown-menu {
+  -webkit-box-shadow: #424245 0px 2px 10px 1px;
+          box-shadow: #424245 0px 2px 10px 1px;
+}
+
+.pull-left {
+  color: #424245;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #424245;
+}
+
+span {
+  color: #424245;
+}
+
+p {
+  color: #424245;
+}
+
+a {
+  color: #424245;
+}
+
+td {
+  color: #424245;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background: #f2f2f2;
+}
+
+.label-info {
+  background: #f2f2f2;
+}
+
+.media-heading {
+  color: #424245;
+}
+
+.ln {
+  background: #f2f2f2;
+  color: #424245;
+}
+
+.ra {
+  background: #f2f2f2;
+  color: #424245;
+}
